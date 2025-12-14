@@ -1,63 +1,60 @@
 # conf2
-Enhancing distributed systems with multi-version concurrency control over 2PL protocol
-
-# storage_optimization
-**STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL**
+**ENHANCING DISTRIBUTED SYSTEMS WITH MULTI-VERSION CONCURRENCY CONTROL OVER 2PL PROTOCOL**
 * Author: Vipul Reddy
-* Published In : International Journal on Science and Technology (IJSAT)
-* Publication Date: 06-2024
-* E-ISSN: 2229-7677
-* Impact Factor: 9.88
+* Published In : **************************
+* Publication Date: 05-2025
+* E-ISSN: *************
+* Impact Factor: *************
 * Link:
 
 **Abstract:**\
-This paper addresses performance and storage overhead challenges in database transaction management caused by maintaining multiple data versions under Multi-Version Concurrency Control (MVCC). It examines how the accumulation of record versions and associated garbage collection processes introduce storage overhead and management complexity, particularly in high-concurrency environments. The study emphasizes the trade-offs of MVCC, including version proliferation, cleanup costs, and the impact of complex transaction interactions such as write skew. By integrating Optimistic Concurrency Control, the proposed approach reduces unnecessary version creation and minimizes storage overhead while preserving snapshot isolation and consistency guarantees. The paper highlights the need for efficient version management strategies to enhance scalability, throughput, and resource utilization in high-performance database systems.
+This paper addresses performance limitations in database transaction management caused by the blocking nature of the Two-Phase Locking (2PL) protocol. It examines how strict lock-based execution leads to resource contention, longer wait times, and reduced throughput in high-concurrency environments. By highlighting the advantages of Multi-Version Concurrency Control, particularly for read operations, the study shows how MVCC enables non-blocking reads and improves performance while maintaining consistency. The paper emphasizes the need for scalable concurrency control mechanisms that balance correctness and efficiency in modern database systems.
 
 **Key Contributions:**
-* **Storage Overhead Mitigation:**\
-Investigated the storage inefficiencies introduced by Multi-Version Concurrency Control due to version proliferation and garbage collection overhead in distributed environments.
+* **Analysis of Version-Based Storage Growth:**\
+Examined how maintaining multiple versions of the same data increases storage usage due to version accumulation, metadata expansion, and cleanup overhead in distributed systems.
 
-* **Optimistic Concurrency Integration:**\
-Applied Optimistic Concurrency Control selectively to reduce unnecessary version creation while preserving transactional consistency and isolation guarantees.
+* **Use of Optimistic Concurrency Techniques:**\
+Applied optimistic concurrency methods as a lightweight approach in low-conflict scenarios to reduce the need for storing historical data versions.
   
-* **Comprehensive Evaluation:** \
-  Conducted a detailed comparative analysis of MVCC and OCC across multiple cluster sizes, demonstrating significant reductions in storage consumption and predictable scalability behavior.
+* **Comparative Experimental Study:** \
+  Conducted a detailed comparison across different cluster sizes, demonstrating that optimistic methods result in lower and more predictable storage growth.
   
-* **Research & Implementation Leadership:**\
-  Directed the design, implementation, and experimental validation of a hybrid concurrency control approach focused on improving storage efficiency and scalability.
+* **System Design and Development:**\
+  Designed, implemented, and validated storage-efficient concurrency mechanisms using practical experiments in distributed environments.
 
 **Relevance & Real-World Impact**
-* **Improved Storage Efficiency:**\
-Reduced disk space usage in distributed database systems by minimizing versioning overhead without compromising transaction correctness.
+* **Lower Storage Consumption:**\
+Reduced disk usage by limiting unnecessary data version retention while maintaining correct transaction behavior.
 
-* **Scalable Distributed Deployment:**\
-Enabled more storage-efficient scaling of database clusters by adopting OCC in low-contention scenarios while retaining MVCC where strong consistency is required.
+* **Improved Scalability:**\
+Enabled smoother horizontal scaling of distributed systems by applying optimistic approaches where versioning overhead is unnecessary.
 
-* **System-Level Performance Benefits:** \
-    Lowered garbage collection pressure and metadata management costs, resulting in improved throughput and reduced resource utilization.
+* **Operational Performance Gains:** \
+Reduced cleanup overhead and metadata management costs, leading to better throughput and system stability.d metadata management costs, leading to better throughput and system stability.
   
 * **Academic and Educational Value:** \
-    Provides empirical insights and implementation references for research and teaching in concurrency control, distributed databases, and storage optimization.
+    Provides clear experimental results and implementation insights useful for study and further exploration in concurrency control and distributed system design.
 
 **Experimental Results (Summary)**:
 
-  | Nodes | Multi-Version Concurrency Control Storage | Optimistic Concurrency Control | Reduction (%)   |
-  |-------|-------------------------------------------| -------------------------------| ----------------|
-  | 3     |  3                                        | 1                              | 66.67           |
-  | 5     |  5                                        | 1.5                            | 70.00           |
-  | 7     |  7                                        | 2                              | 71.43           |
-  | 9     |  9                                        | 2.5                            | 72.22           |
-  | 11    |  11                                       | 3                              | 72.73           |
+  | Nodes | 2 Phase Locking Protocol | Multi Version Concurrency Control | Reduction (%)   |
+  |-------|--------------------------| ----------------------------------| ----------------|
+  | 3     |  3000                    | 4000                              | 33.33           |
+  | 5     |  4000                    | 6000                              | 50.00           |
+  | 7     |  5000                    | 7000                              | 40.00           |
+  | 9     |  6000                    | 8000                              | 33.33           |
+  | 11    |  7000                    | 9000                              | 28.57           |
 
 **Citation** \
-STORAGE OPTIMIZATION IN DISTRIBUTED ENVIRONMENTS USING OPTIMISTIC CONCURRENCY CONTROL
+ENHANCING DISTRIBUTED SYSTEMS WITH MULTI-VERSION CONCURRENCY CONTROL OVER 2PL PROTOCOL
 * Vipul R 
-* International Journal on Science and Technology 
-* E-ISSN 2229-7677
+* Intern***************and Technology 
+* E-ISSN *******
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijsat.org/ \
+https://******
 **Author Contact** \
 **LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
 
