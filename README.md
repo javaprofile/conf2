@@ -1,6 +1,6 @@
 # conf2
 **ENHANCING DISTRIBUTED SYSTEMS WITH MULTI-VERSION CONCURRENCY CONTROL OVER 2PL PROTOCOL**
-* Author: Vipul Reddy
+* Author: Vipul Kumar Bondugula
 * Published In : **************************
 * Publication Date: 05-2025
 * E-ISSN: *************
@@ -56,7 +56,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://******
 **Author Contact** \
-**LinkedIn**: http://linkedin.com/in/Please add here | **Email**: please keep email id @gmail.com
+**LinkedIn**: https://www.linkedin.com/in/vipul-b-18468a19/ | **Email**: vipulreddy574@gmail.com
 
 
 
